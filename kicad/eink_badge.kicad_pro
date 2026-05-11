@@ -779,7 +779,7 @@
         "uuid": "a3f2f8a7-1139-4c7a-bcb8-8ad0907be574"
       }
     ],
-    "used_designators": "L2,C23-24,C28,C30,C35-38,#PWR36-42,D1-2,R8,R12,R17-21,CN1-2,U9-10",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
