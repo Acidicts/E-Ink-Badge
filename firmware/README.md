@@ -80,10 +80,7 @@ report "n/a" instead of a bogus number.
 
 ## Controls
 
-- **Button A**: from the badge screen, opens the menu. Inside the menu,
-  cycles through items.
-- **Button B**: confirms the highlighted menu item. From the badge
-  screen, forces a full refresh (clears any ghosting).
+- You get none
 
 ## Notes / things you may want to change
 
