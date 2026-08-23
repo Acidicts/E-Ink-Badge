@@ -37,4 +37,4 @@ I made a Eink display badge powered by the rp2350A inspired by the github univer
 | EInk Display | x1 | $6.30 | [here](https://buyepaper.com/products/e-ink-display-high-resolution-gdey0266t90h?VariantsId=10607) |
 | Battery 3.7V / 500mAh | x1 | $8.50 | [here](https://thepihut.com/products/500mah-3-7v-lipo-battery) |
 | PCB | x5 | $2-$4 | [JLCPCB](https://jlcpcb.com/) |
-| PCBA | x2 | $97.88 | [JLCPCB](https://jlcpcb.com/) |
+| PCBA | x2 | $95.88 | [JLCPCB](https://jlcpcb.com/) |

@@ -3608,7 +3608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 155.702 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -3804,7 +3804,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CL10C100JB8NNNC"
+		(property "Value" "10pF"
 			(at 180.34 144.7799 90)
 			(hide yes)
 			(show_name no)
@@ -3816,7 +3816,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 184.15 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3931,7 +3931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 114.3 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3942,7 +3942,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A475KAQNNNE_4-7uF-475-10-25V_C1779.html"
+		(property "Datasheet" ""
 			(at 116.84 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4189,7 +4189,7 @@
 				)
 			)
 		)
-		(property "Value" "CC0402KRX5R9BB104"
+		(property "Value" "0.1uF"
 			(at 148.59 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4200,7 +4200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 160.02 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4211,7 +4211,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C105882.html"
+		(property "Datasheet" ""
 			(at 162.56 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4233,7 +4233,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
+		(property "Manufacturer" ""
 			(at 165.1 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4244,7 +4244,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0402KRX5R9BB104"
+		(property "MPN" ""
 			(at 167.64 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4255,7 +4255,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C105882"
+		(property "LCSC Part" ""
 			(at 170.18 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4315,7 +4315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.862 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -4601,7 +4601,7 @@
 				)
 			)
 		)
-		(property "Value" "LMK212BJ226MG-T"
+		(property "Value" "22uF"
 			(at 200.66 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4612,7 +4612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 189.23 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4623,7 +4623,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_TAIYO-YUDEN_LMK212BJ226MG-T_22uF-226-20-10V_C92814.html"
+		(property "Datasheet" ""
 			(at 186.69 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4727,7 +4727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 27.432 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -5278,7 +5278,7 @@
 				)
 			)
 		)
-		(property "Value" "LMK212BJ226MG-T"
+		(property "Value" "22uF"
 			(at 196.85 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5289,7 +5289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 185.42 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5300,7 +5300,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_TAIYO-YUDEN_LMK212BJ226MG-T_22uF-226-20-10V_C92814.html"
+		(property "Datasheet" ""
 			(at 182.88 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5392,7 +5392,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "EMK212BJ106KG-T"
+		(property "Value" "10uF"
 			(at 101.6 134.6199 90)
 			(hide yes)
 			(show_name no)
@@ -5404,7 +5404,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 105.41 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5415,7 +5415,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_TAIYO-YUDEN_EMK212BJ106KG-T_10uF-106-10-16V_C87157.html"
+		(property "Datasheet" ""
 			(at 107.95 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5676,7 +5676,7 @@
 				)
 			)
 		)
-		(property "Value" "LMK212BJ226MG-T"
+		(property "Value" "22uF"
 			(at 204.47 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5687,7 +5687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 193.04 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5698,7 +5698,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_TAIYO-YUDEN_LMK212BJ226MG-T_22uF-226-20-10V_C92814.html"
+		(property "Datasheet" ""
 			(at 190.5 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5790,7 +5790,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "EMK212BJ106KG-T"
+		(property "Value" "10uF"
 			(at 96.52 134.6199 90)
 			(hide yes)
 			(show_name no)
@@ -5802,7 +5802,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 100.33 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5813,7 +5813,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_TAIYO-YUDEN_EMK212BJ106KG-T_10uF-106-10-16V_C87157.html"
+		(property "Datasheet" ""
 			(at 102.87 133.35 0)
 			(hide yes)
 			(show_name no)
