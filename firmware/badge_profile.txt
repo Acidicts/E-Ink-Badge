@@ -1,0 +1,11 @@
+# badge_profile.txt
+#
+# Edit this file (plain text, key = value) to personalize your badge, then
+# save it - the badge picks it up next time it boots (or press button B on
+# the badge screen to reload without a reboot, if wired up in code.py).
+#
+# Lines starting with # are comments and ignored.
+
+name = Alex Hayes
+pronouns = he/him
+handle = @Acidicts
