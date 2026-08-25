@@ -25,16 +25,14 @@ I made a Eink display badge powered by the rp2350A inspired by the github univer
 - Battery Management
 - E-INK Display Support over SPI
 
-# Getting Started
-[Here](./GET_STARTED.md)
+# Build Guide
+I would recommend using a pcba service for this as has many parts which may be difficult to solder (rp2350A and the eink display connetor)
 
-# PCB BOM
-[Here](./PCB_BOM.md)
+As most parts will be on already except battery and display, I would recommend cutting the battery connector legs a bit so they don't press against the display. After that use an ahesive to stick the battery to the marked area on the pcb, then use the battery connector to connect the battery cable to the pcb. After that, you can install the eink display use an adhesive to mount it to the front of the pcb in the marked area, then loop the riboncable through the indentation in the pcb, open the fpc connector clamp arm and place the cable in before push the lever down.
 
-# BOM ( Not PCB BOM from /production )
-| Item | Quantity | Cost ($) | Link | 
-|-----|----------|-----|---------|
-| EInk Display | x1 | $6.30 | [here](https://buyepaper.com/products/e-ink-display-high-resolution-gdey0266t90h?VariantsId=10607) |
-| Battery 3.7V / 500mAh | x1 | $8.50 | [here](https://thepihut.com/products/500mah-3-7v-lipo-battery) |
-| PCB | x5 | $2-$4 | [JLCPCB](https://jlcpcb.com/) |
-| PCBA | x2 | $95.88 | [JLCPCB](https://jlcpcb.com/) |
+Now you are done!!!
+I would recommend running circuitpython on it as it is the easiest way to get started with it although I do have some demo code which may or may not work.
+
+# BOMs
+[PROJECT BOM](./BOM.csv)
+[PCB BOM](./PCB_BOM.md)
