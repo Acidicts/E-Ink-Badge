@@ -33,6 +33,17 @@ As most parts will be on already except battery and display, I would recommend c
 Now you are done!!!
 I would recommend running circuitpython on it as it is the easiest way to get started with it although I do have some demo code which may or may not work.
 
+# Firmware
+So I have some simple firmware but for anyone who plans to create their own here are the pinouts for spi connected to the display:
+### SPI Pins:
+- SCLK GPIO 2
+- SDI GPIO 3
+- D/C GPIO 4
+- CS GPIO 5
+- RES GPIO 6
+- BUSY GPIO 7
+
+
 # BOMs
 [PROJECT BOM](./BOM.csv)
 [PCB BOM](./PCB_BOM.md)
