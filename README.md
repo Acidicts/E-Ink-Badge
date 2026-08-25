@@ -1,49 +1,65 @@
-# E-Ink-Badge
-I made a Eink display badge powered by the rp2350A inspired by the github universe conference badge from 2024
+# E-Ink Badge
+
+A DIY E-Ink display badge powered by the RP2350A, inspired by the GitHub Universe 2024 conference badge.
 
 <div style="width:100%; display:inline-flex">
-    <img style="width:49%" alt="E-Ink_Badge_2026-May-11_04-48-37PM-000_CustomizedView35901139220" src="https://github.com/user-attachments/assets/56c6940c-3105-4df8-8d04-2791b771ce14" />
-    <img style="width:49%" alt="E-Ink_Badge_2026-May-11_04-48-49PM-000_CustomizedView10564322915" src="https://github.com/user-attachments/assets/baa17b3d-0c78-4348-9072-256c4763411c" />
+    <img style="width:49%" alt="E-Ink Badge render 1" src="https://github.com/user-attachments/assets/56c6940c-3105-4df8-8d04-2791b771ce14" />
+    <img style="width:49%" alt="E-Ink Badge render 2" src="https://github.com/user-attachments/assets/baa17b3d-0c78-4348-9072-256c4763411c" />
 </div>
-(Renders made on Fusion 360)
+
+*(Renders made in Fusion 360)*
 
 <div style="width:100%;">
     <div style="width:100%; display:inline-flex">
-        <img style="width:33%" alt="E-Ink_Badge_2026-May-11_04-48-37PM-000_CustomizedView35901139220" src="assets/main.png" />
-        <img style="width:33%" alt="E-Ink_Badge_2026-May-11_04-48-37PM-000_CustomizedView35901139220" src="assets/display.png" />
-        <img style="width:33%" alt="E-Ink_Badge_2026-May-11_04-48-37PM-000_CustomizedView35901139220" src="assets/batteru.png" />
+        <img style="width:33%" alt="Assembled badge, main view" src="assets/main.png" />
+        <img style="width:33%" alt="E-Ink display detail" src="assets/display.png" />
+        <img style="width:33%" alt="Battery mounting detail" src="assets/batteru.png" />
     </div>
     <div style="width:100%; display:inline-flex">
-        <img style="width:100%" alt="E-Ink_Badge_2026-May-11_04-48-37PM-000_CustomizedView35901139220" src="assets/PCB.png" />
+        <img style="width:100%" alt="PCB layout" src="assets/PCB.png" />
     </div>
 </div>
 
-# Features
-- Currently I hvae made no software for it but I may try to adapt the badger software from the conference badge
-- RP2350A
-- 16MB of flash
-- Battery Management
-- E-INK Display Support over SPI
+## Features
 
-# Build Guide
-I would recommend using a pcba service for this as has many parts which may be difficult to solder (rp2350A and the eink display connetor)
+- **MCU:** RP2350A
+- **Flash:** 16MB onboard
+- **Power:** Integrated battery management for a single-cell LiPo
+- **Display:** E-Ink support over SPI
+- **Software:** No dedicated firmware/software yet — I'm considering adapting the [Badger 2040](https://github.com/pimoroni/badger2040) software from the GitHub Universe conference badge as a starting point
 
-As most parts will be on already except battery and display, I would recommend cutting the battery connector legs a bit so they don't press against the display. After that use an ahesive to stick the battery to the marked area on the pcb, then use the battery connector to connect the battery cable to the pcb. After that, you can install the eink display use an adhesive to mount it to the front of the pcb in the marked area, then loop the riboncable through the indentation in the pcb, open the fpc connector clamp arm and place the cable in before push the lever down.
+## Build Guide
 
-Now you are done!!!
-I would recommend running circuitpython on it as it is the easiest way to get started with it although I do have some demo code which may or may not work.
+This board has some fine-pitch and hand-soldering-unfriendly parts (the RP2350A and the E-Ink display's FPC connector), so I'd recommend using a **PCBA (assembly) service** for the main board rather than hand-soldering it yourself.
 
-# Firmware
-So I have some simple firmware but for anyone who plans to create their own here are the pinouts for spi connected to the display:
-### SPI Pins:
-- SCLK GPIO 2
-- SDI GPIO 3
-- D/C GPIO 4
-- CS GPIO 5
-- RES GPIO 6
-- BUSY GPIO 7
+Most components will already be populated by the assembly service — you'll only need to install the **battery** and the **display** yourself:
 
+1. **Prepare the battery connector:** Trim the battery connector's legs slightly so they don't press against the back of the display once everything is assembled.
+2. **Mount the battery:** Apply adhesive to the marked area on the PCB and stick the battery down.
+3. **Connect the battery:** Plug the battery cable into the battery connector on the PCB.
+4. **Mount the display:** Apply adhesive to the marked area on the front of the PCB and attach the E-Ink display.
+5. **Connect the display cable:** Route the ribbon cable through the indentation/slot in the PCB. Open the FPC connector's clamp arm, insert the ribbon cable, then press the clamp lever back down to lock it in place.
 
-# BOMs
-[PROJECT BOM](./BOM.csv)
-[PCB BOM](./PCB_BOM.md)
+That's it — the badge is fully assembled!
+
+For getting started with software, I'd recommend flashing **CircuitPython**, as it's the easiest way to get up and running. I also have some demo firmware included in this repo, though it's untested/may not work out of the box.
+
+## Firmware
+
+I have some basic firmware in this repo. If you'd like to write your own, here are the SPI pin mappings for the display connection:
+
+### SPI Pinout
+
+| Signal | GPIO |
+|--------|------|
+| SCLK (Clock)      | GPIO 2 |
+| SDI (MOSI/Data)   | GPIO 3 |
+| D/C (Data/Command)| GPIO 4 |
+| CS (Chip Select)  | GPIO 5 |
+| RES (Reset)       | GPIO 6 |
+| BUSY              | GPIO 7 |
+
+## Bill of Materials (BOM)
+
+- [Project BOM](./BOM.csv) — full parts list for the badge
+- [PCB BOM](./PCB_BOM.md) — parts list specific to the PCB assembly
